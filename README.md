@@ -4,7 +4,7 @@ an api practice of yii2-app-basic framework.
 ## Getting started
 - clone this project to your server `web_root` or any other directory as you like.
 - modify `config/db.php` to set a db connection.
-- make sure `php` and `composer` is installed already, open a console and switch to your project directory, then excute `composer install` to download dependencies.
+- make sure `php` and `composer` is installed already, open a console and switch to your project directory, then excute `composer update` to download dependencies (skip this step).
 - keep in the app root directory, execute `php ./yii create-table/create` to init tables.
 - add a apache or nginx site config ([see this for detail][add_config]), after that you need restart server to make changes take effect.
 - visit `http://{domain}/api/account/open?user_id=101` to test.
